@@ -13,7 +13,7 @@ Enable pre-set kerberos identity domain:
 
 `defaults write com.github.suolapeikko.Fluffy kerberos_realm "MYREALM.COM"`
 
-Enable "Change Password" item in GUI:
+You can optionally enable "Change password" item in the GUI, if you want to change your password through Fluffy (using kerberos):
 
 `defaults write com.github.suolapeikko.Fluffy enable_password_change -bool true`
 
