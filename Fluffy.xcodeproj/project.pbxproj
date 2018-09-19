@@ -35,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		E4025D8E1DD0B1390074555D /* AuthenticationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationHelper.swift; sourceTree = "<group>"; };
+		E42084B521523D02008A9A5F /* Fluffy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fluffy.entitlements; sourceTree = "<group>"; };
 		E427BF5C1E3BEAF100F54E87 /* Variables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
 		E43CE4EA1DB3EBF4004374F5 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		E43CE4EE1DB4008F004374F5 /* ViewControllerDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDelegates.swift; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 		E4E5C9BE1DB0CBF900F92B6D /* Fluffy */ = {
 			isa = PBXGroup;
 			children = (
+				E42084B521523D02008A9A5F /* Fluffy.entitlements */,
 				E4E5C9BF1DB0CBF900F92B6D /* AppDelegate.swift */,
 				E43CE4EA1DB3EBF4004374F5 /* AuthenticationViewController.swift */,
 				E4E5CA581DB224F100F92B6D /* MenuViewController.swift */,
@@ -131,6 +133,11 @@
 						DevelopmentTeam = RWR4H6QC95;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -309,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Fluffy/Fluffy.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = RWR4H6QC95;
@@ -330,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Fluffy/Fluffy.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = RWR4H6QC95;
