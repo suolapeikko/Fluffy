@@ -1,7 +1,7 @@
 ![Fluffy logo image](https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/fluffy_logo.png)
 
 ## About Fluffy
-Fluffy is a macOS menu bar app that manages your kerberos ticket refreshes and optionally allows you to change your kerberos password as well. It uses keychain to store your credentials and then automatically refreshes your ticket periodically and during network changes.
+Fluffy is a macOS menu bar app that manages your kerberos ticket refreshes and optionally allows you to change your kerberos password as well. It uses keychain to store your credentials and then automatically refreshes your ticket periodically and during network changes. Fluffy runs in a Sandbox.
 
 I had a hard time deciding on the app name so what better than the other famous three headed dog... [Fluffy](http://harrypotter.wikia.com/wiki/Fluffy)
 
