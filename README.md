@@ -13,9 +13,11 @@ Enable pre-set kerberos identity domain:
 
 `defaults write com.github.suolapeikko.Fluffy kerberos_realm "MYREALM.COM"`
 
+`defaults write ~/Library/Containers/com.github.suolapeikko.Fluffy/Data/Library/Preferences/com.github.suolapeikko.Fluffy kerberos_realm "MYREALM.COM"`
+
 You can optionally enable "Change password" item in the GUI, if you want to change your password through Fluffy (using kerberos):
 
-`defaults write com.github.suolapeikko.Fluffy enable_password_change -bool true`
+`defaults write ~/Library/Containers/com.github.suolapeikko.Fluffy/Data/Library/Preferences/com.github.suolapeikko.Fluffy enable_password_change -bool true`
 
 ## Using Fluffy
 
