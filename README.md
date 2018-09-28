@@ -25,4 +25,4 @@ Menu items basically say it all, see the picture below. Fluffy icon is gray if y
 
 ![Fluffy menu image](https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/fluffy_menu.png)
 
-When you enable Single Sign-on for the first time, you must either use `antti` or `antti@MYDOMAIN.COM` format, depending on whether you did or did not enable realm with `defaults write` -command (see Configuring Fluffy -chapter).
+When you enable Single Sign-on for the first time, you must either use `antti` or `antti@MYREALM.COM` format, depending on whether you did or did not enable realm with `defaults write` -command (see Configuring Fluffy -chapter).
