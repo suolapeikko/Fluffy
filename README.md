@@ -11,11 +11,11 @@ You can pre-configure Fluffy using terminal or your favorite management tool.
 
 Enable pre-set kerberos identity domain:
 
-`defaults write com.github.suolapeikko.Fluffy kerberos_realm "MYREALM.COM"`
+`defaults write ~/Library/Containers/com.github.suolapeikko.Fluffy/Data/Library/Preferences/com.github.suolapeikko.Fluffy kerberos_realm "MYREALM.COM"`
 
 You can optionally enable "Change password" item in the GUI, if you want to change your password through Fluffy (using kerberos):
 
-`defaults write com.github.suolapeikko.Fluffy enable_password_change -bool true`
+`defaults write ~/Library/Containers/com.github.suolapeikko.Fluffy/Data/Library/Preferences/com.github.suolapeikko.Fluffy enable_password_change -bool true`
 
 ## Using Fluffy
 
@@ -25,4 +25,4 @@ Menu items basically say it all, see the picture below. Fluffy icon is gray if y
 
 ![Fluffy menu image](https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/fluffy_menu.png)
 
-When you enable Single Sign-on for the first time, you must either use `antti` or `antti@MYDOMAIN.COM` format, depending on whether you did or did not enable realm with `defaults write` -command (see Configuring Fluffy -chapter).
+When you enable Single Sign-on for the first time, you must either use `antti` or `antti@MYREALM.COM` format, depending on whether you did or did not enable realm with `defaults write` -command (see Configuring Fluffy -chapter).
